@@ -7,7 +7,7 @@ head {
 }
 body {
     width: 100%;
-    max-width: 1900px;
+    max-width: 1600px;
     margin: 0 50px;
     padding: 0 auto;
     background-color: lightslategray;
@@ -19,6 +19,11 @@ body {
     position: static;
     
 }
+
+.nav-link {
+    width: 100%; /* This makes the links fill the available space */
+}
+
     
 
 #navbar > * {
